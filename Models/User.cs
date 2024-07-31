@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EtkinlikProjesi.Models.Concrete
+namespace EtkinlikProjesi.Models
 {
     public class User
     {

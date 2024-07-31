@@ -1,4 +1,4 @@
-﻿using EtkinlikProjesi.Models.Concrete;
+﻿using EtkinlikProjesi.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EtkinlikProjesi.Data
@@ -19,6 +19,9 @@ namespace EtkinlikProjesi.Data
 
         }
         public DbSet<User> User { get; set; }
+        public DbSet<Categories> Categories { get; set; }
+
+
 
     }
 }
